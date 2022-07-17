@@ -1,0 +1,154 @@
+@media (max-width: 768px) {
+  #banner .content h1 {
+    font-size: 28px;
+  }
+  .navbar .span-info {
+    display: none;
+  }
+
+  /* MỤC TIÊU NGHỀ NGHIỆP/ THÔNG TIN CÁ NHÂN */
+
+  #information h2 {
+    font-size: 18px;
+  }
+  #information p,
+  li,
+  ul,
+  .icon {
+    font-size: 14px;
+  }
+
+  #target .nen {
+    margin: 10% 10px 10% 20%;
+  }
+
+  #person-info .nen {
+    margin: 10% 20% 10% 10px;
+  }
+
+  /* Kinh nghiệm */
+  #job-info .col-sm-4 {
+    width: 50%;
+    padding: auto;
+  }
+  #job-info h1,
+  i {
+    font-size: 18px;
+  }
+  #job-info h4 {
+    font-size: 16px;
+  }
+  #job-info li,
+  ul,
+  p,
+  i,
+  span {
+    font-size: 14px;
+  }
+
+  #job-info .info p {
+    font-size: 14px;
+  }
+
+  /* chứng chỉ */
+
+  #certificate h1 {
+    font-size: 18px;
+    padding-left: 10px;
+  }
+
+  #certificate p {
+    font-size: 14px;
+    padding-left: 10px 0;
+  }
+
+  #certificate .info img {
+    display: block;
+    width: 35%;
+    /* height: 40%; */
+    justify-items: center;
+    padding-left: 10px;
+  }
+
+  .line-giua {
+    border-bottom: 2px solid #d6c08d;
+    position: absolute;
+    width: 100%;
+    margin-top: 250px;
+  }
+
+  #certificate .web {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 5px;
+  }
+
+  #certificate .java {
+    display: flex;
+    flex-direction: column;
+    border-left: 2px solid #d6c08d;
+    padding-left: 10px;
+  }
+  #certificate .data {
+    display: flex;
+    height: fit-content;
+    flex-direction: column;
+    padding-top: 10px;
+  }
+
+  /* Dự án */
+  #project h1 {
+    font-size: 24px;
+    padding: 20px 10px;
+  }
+
+  #project .section-title {
+    font-size: 24px;
+  }
+
+  #project .col-sm-4 {
+    width: 30%;
+    padding: auto;
+    gap: 20px;
+  }
+  #project h1,
+  i {
+    font-size: 14px;
+  }
+  #project li,
+  ul,
+  p,
+  i,
+  span {
+    font-size: 12px;
+  }
+  #project img {
+    display: block;
+    width: 100%;
+  }
+  #project .tieu-de-du-an {
+    font-size: 12px;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 5px;
+    padding: 10px 0 10px 5px;
+    border-bottom: 2px solid #c0c1c1;
+  }
+
+  #project table {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  #project .icon-du-an {
+    padding: 5px 0px 5px 10px;
+    font-size: 16px;
+    display: flex;
+    justify-content: stretch;
+    border-bottom: 2px solid #c0c1c1;
+    align-items: center;
+    gap: 2px;
+  }
+}
