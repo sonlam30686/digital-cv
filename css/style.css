@@ -141,11 +141,11 @@ span {
 .kinh-nghiem .info h4::after {
   content: "";
   position: absolute;
-  width: 5px;
-  height: 5px;
+  width: 10px;
+  height: 10px;
   left: 10px;
   background-color: #00bfff;
-  border: 2px solid #fff;
+  border: 0.5px solid #fff;
   border-radius: 50%;
   justify-content: center;
   margin: 4px;
@@ -225,11 +225,11 @@ span {
 .hoc-van .info h4::after {
   content: "";
   position: absolute;
-  width: 5px;
-  height: 5px;
+  width: 10px;
+  height: 10px;
   left: 10px;
   background-color: #00bfff;
-  border: 2px solid #fff;
+  border: 0.5px solid #fff;
   border-radius: 50%;
   justify-content: center;
   margin: 4px;
@@ -281,11 +281,11 @@ span {
 .hoat-dong .info h4::after {
   content: "";
   position: absolute;
-  width: 5px;
-  height: 5px;
+  width: 10px;
+  height: 10px;
   left: 10px;
   background-color: #00bfff;
-  border: 2px solid #fff;
+  border: 0.5px solid #fff;
   border-radius: 50%;
   justify-content: center;
   margin: 4px;
