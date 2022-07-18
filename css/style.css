@@ -788,3 +788,86 @@ span {
   left: 45%;
   bottom: 50px;
 }
+
+/* Project-Char */
+.project-char {
+  gap: 15px;
+  padding: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+}
+
+.project-char table {
+  width: 100%;
+}
+.project-char .in .out {
+  width: 50%;
+  height: 200px;
+}
+.project-char h3 {
+  color: #1e90ff;
+  border-bottom: 3px solid #939393;
+  font-size: 32px;
+}
+
+.project-char i {
+  font-size: 24px;
+}
+.project-char .goals tr {
+  border-bottom: 2px solid #b8b6b6;
+}
+.project-char th {
+  text-align: center;
+  font-size: 50px;
+}
+.project-char p {
+  font-size: 24px;
+  padding-top: 15px;
+  padding-bottom: 0px;
+  margin-bottom: 0;
+}
+.project-char span {
+  font-size: 24px;
+  margin: 0;
+}
+.goals .team .time-line .scopes {
+  padding: 10px;
+}
+
+.scopes-info {
+  display: flex;
+}
+.time-line {
+  grid-column: 4;
+  grid-row: 1 / span 2;
+}
+.goals {
+  grid-column: 1/3;
+  grid-row: 1;
+}
+.scopes {
+  grid-column: 1/3;
+  grid-row: 2;
+}
+.project-char td.expand {
+  width: 70%;
+}
+
+/* Button xem thêm dự án */
+.xemthem a:link,
+.xemthem a:disabled {
+  text-decoration: none;
+  color: #5e5d5d;
+}
+
+.xemthem a:hover {
+  text-decoration: none;
+  color: #5e5d5d;
+}
+
+.xemthem {
+  border: none;
+  background-color: #e9a507;
+  border-radius: 10px;
+}

@@ -121,7 +121,7 @@
     gap: 10px;
     padding-bottom: 5px;
   }
-  4 #certificate .java {
+  #certificate .java {
     display: flex;
     flex-direction: column;
     border-left: 2px solid #d6c08d;
@@ -187,5 +187,59 @@
     border-bottom: 2px solid #c0c1c1;
     align-items: center;
     gap: 2px;
+  }
+
+  /* Project-char */
+  .project-char {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  }
+  .scopes-info {
+    display: flex;
+    gap: 10px;
+  }
+
+  .project-char td.expand {
+    width: 70%;
+  }
+  .goals {
+    grid-row: 1;
+    grid-column: 1 / 5;
+  }
+  .team {
+    grid-column: 1/5;
+    grid-row: 2;
+  }
+  .time-line {
+    grid-column: 1/5;
+    grid-row: 3;
+  }
+  .scopes {
+    grid-column: 1/5;
+    grid-row: 4;
+  }
+  .primary {
+    grid-column: 1/5;
+    grid-row: 5;
+  }
+  /* Button xem thêm dự án */
+  .xemthem a:link,
+  .xemthem a:disabled {
+    text-decoration: none;
+    color: #5e5d5d;
+    font-size: 14px;
+  }
+
+  .xemthem a:hover {
+    text-decoration: none;
+    color: #5e5d5d;
+    font-size: 14px;
+  }
+
+  .xemthem {
+    border: none;
+    background-color: #e9a507;
+    border-radius: 10px;
   }
 }
